@@ -1,0 +1,41 @@
+.white-form{
+    -fx-background-color: #fff;
+}
+.other-form{
+    -fx-background-color: linear-gradient(to bottom right, #9e20a0, #5a3375);
+
+}
+.loginbtn{
+    -fx-background-color: linear-gradient(to bottom right, #9e20a0, #5a3375);
+    -fx-text-fill: #fff;
+    -fx-cursor: hand;
+}
+.createaccountbtn{
+    -fx-background-color: transparent;
+    -fx-border-color: #fff;
+    -fx-border-width: 1px;
+    -fx-text-fill: #fff;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+}
+.createaccountbtn:hover{
+    -fx-background-color: #fff;
+    -fx-text-fill: #000;
+    -fx-border-radius: 5px;
+}
+
+/*.input-text{*/
+/*    -fx-border-radius: 60px;*/
+/*    -fx-border-color: #000;*/
+/*    -fx-background-color: #fff;*/
+/*}*/
+
+/* Apply the bottom black border to the TextField */
+.text-field {
+    -fx-border-color: #fff #fff black #fff;
+}
+
+/* Hide the other borders (left, right, and top) */
+.text-field .border {
+    -fx-border-width: 0;
+}

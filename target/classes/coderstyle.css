@@ -1,0 +1,59 @@
+.whiteform{
+    -fx-background-color: #D4D4D4;
+    -fx-background-radius: 8px;
+}
+
+.an{
+    -fx-background-color: #D4D4D4;
+}
+
+.header_panel{
+    -fx-background-color: linear-gradient(to bottom right, #9e20a0, #5a3375);
+    -fx-text-fill: #fff;
+}
+
+
+.border{
+    -fx-border-color: linear-gradient(to bottom right, #9e20a0, #5a3375);
+    -fx-border-width: 1px;
+    -fx-border-radius: 8px;
+}
+
+.btn{
+    -fx-background-color: linear-gradient(to bottom right, #9e20a0, #5a3375);
+    -fx-text-fill: #fff;
+    -fx-font-size: 18px;
+    -fx-font-family: "Baskerville Old Face";
+    -fx-cursor: hand;
+}
+.btn:hover{
+    -fx-background-color: linear-gradient(to bottom right, #a914ae, #7f4fa4);
+}
+
+.table-view{
+    -fx-padding: 0px;
+    -fx-background-color: transparent;
+    -fx-border-color: linear-gradient(to bottom right, #9e20a0, #5a3375);
+    -fx-border-radius: 8px;
+    -fx-border-width: 2px;
+}
+.table-view .column-header{
+    -fx-alignment: center;
+    -fx-background-color: linear-gradient(to bottom right, #9e20a0, #5a3375);
+    -fx-border-radius: 8px 8px 0 0;
+    -fx-background-insets: 0 0 0 0 ;
+}
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(to bottom right, #9e20a0, #5a3375);
+    -fx-border-radius: 8px 8px 0 0;
+    -fx-background-insets: 0 0 0 0 ;
+}
+.table-view .column-header, .filter{
+    -fx-background-color: transparent;
+    -fx-size: 50px;
+}
+.table-view .column-header .label{
+    -fx-text-fill: #fff;
+    -fx-font-family: "Baskerville Old Face";
+    -fx-font-size: 20px;
+}
